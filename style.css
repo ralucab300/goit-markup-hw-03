@@ -227,3 +227,38 @@ footer {
   padding-left: 100px;
   margin-top: 30px;
 }
+/* FOR PORTOFOLIO */
+
+.main-portofolio ul {
+  columns: 3;
+  list-style: none;
+}
+.main-container1 {
+  width: 1100px;
+  height: 1320px;
+  margin: 25px 50px;
+}
+.buttons {
+  margin-left: 350px;
+}
+.main-list {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  margin-bottom: 30px;
+}
+.active-filter,
+.main-filters {
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  align-items: center;
+  border-radius: 5px;
+}
+.active-filter {
+  width: 50px;
+}
+.active-filter:hover {
+  color: white;
+}
